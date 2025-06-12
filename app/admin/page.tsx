@@ -1,6 +1,6 @@
 // app/admin/page.tsx
 
-import { MoodEntry } from "@/utils/moods"
+import { MoodEntry } from "@/lib/moods"
 
 async function getMoods() {
   const res = await fetch("http://localhost:3000/api/mood", {
